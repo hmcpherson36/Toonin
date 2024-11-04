@@ -133,12 +133,6 @@ a:hover {
 #rectitle {
 	text-align: center;
 	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-.form-group {
-	text-align: center;
-
 }
 
 .form-end {
@@ -225,4 +219,17 @@ a:hover {
   align-items: center;
   text-align: center;
   padding: 20px 0;
+}
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px; /* Adjust the top space as needed */
+  height: 100vh;
+}
+
+.form-group {
+  width: 640px;
+  height: 720px;
+  border: none;
 }
